@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "O Caminho do Algodão",
+    "slug": "caminho-algodao",
+    "version": "1.0.0",
+    "sdkVersion": "57.0.0",
+    "plugins": [],
+    "ios": {
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Precisamos do microfone para que o Algodão possa ouvir os comandos de voz da criança."
+      }
+    },
+    "android": {
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
